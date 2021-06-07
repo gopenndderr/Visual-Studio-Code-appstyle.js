@@ -1,0 +1,36 @@
+
+
+import { StyleSheet } from 'react-native'
+
+const appStyle = StyleSheet.create({
+container: {
+        width: '100%',
+        height: '100%',
+        backgroundColor: '#0b3a58',
+        },
+images: {
+width: "100%",
+height: 250,
+alignSelf: 'center',
+   },
+button: {
+width: '80%',
+        height: 47,
+        backgroundColor: '#d42620',
+        alignSelf: 'center',
+        marginTop: 35,
+        borderRadius: 50,
+        justifyContent: 'center'
+  },
+
+   textButton: {
+        color: '#ffffff',
+        alignSelf: 'center',
+        textAlign: 'center',
+        fontSize: 14,
+        fontWeight: 'bold',
+        marginTop: 3
+   },
+})
+
+export default appStyle
